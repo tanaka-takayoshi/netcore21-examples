@@ -32,6 +32,10 @@ if [ -n "${DOTNET_NPM_TOOLS}" ]; then
   popd
 fi
 
+echo "dotnet info:"
+dotnet --info
+
+
 # sdk version
 DOTNET_SDK_VERSION="${DOTNET_SDK_VERSION:-$DOTNET_SDK_BASE_VERSION}"
 if [ "$DOTNET_SDK_VERSION" != "latest" ]; then
@@ -111,10 +115,13 @@ done
 # publish application
 echo "---> Restoring application dependencies..."
 pwd
-echo "STARTUP"
+echo "STARTUP:"
 echo $DOTNET_STARTUP_PROJECT 
-echo "ls"
+
+echo "ls:"
 ls
+
+
 dotnet restore "$DOTNET_STARTUP_PROJECT" $RESTORE_OPTIONS $VERBOSITY_OPTION
 echo "---> Publishing application..."
 dotnet publish "$DOTNET_STARTUP_PROJECT" -f "$DOTNET_FRAMEWORK" -c "$DOTNET_CONFIGURATION" $VERBOSITY_OPTION \
