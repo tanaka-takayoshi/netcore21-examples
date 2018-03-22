@@ -1,0 +1,10 @@
+/home/clouduser/netcore21-examples/aspnetcore/mvc/bin/Debug/netcoreapp2.1/mvc.deps.json
+/home/clouduser/netcore21-examples/aspnetcore/mvc/bin/Debug/netcoreapp2.1/mvc.runtimeconfig.json
+/home/clouduser/netcore21-examples/aspnetcore/mvc/bin/Debug/netcoreapp2.1/mvc.runtimeconfig.dev.json
+/home/clouduser/netcore21-examples/aspnetcore/mvc/bin/Debug/netcoreapp2.1/mvc.dll
+/home/clouduser/netcore21-examples/aspnetcore/mvc/bin/Debug/netcoreapp2.1/mvc.pdb
+/home/clouduser/netcore21-examples/aspnetcore/mvc/obj/Debug/netcoreapp2.1/mvc.csproj.CoreCompileInputs.cache
+/home/clouduser/netcore21-examples/aspnetcore/mvc/obj/Debug/netcoreapp2.1/mvc.AssemblyInfoInputs.cache
+/home/clouduser/netcore21-examples/aspnetcore/mvc/obj/Debug/netcoreapp2.1/mvc.AssemblyInfo.cs
+/home/clouduser/netcore21-examples/aspnetcore/mvc/obj/Debug/netcoreapp2.1/mvc.dll
+/home/clouduser/netcore21-examples/aspnetcore/mvc/obj/Debug/netcoreapp2.1/mvc.pdb
