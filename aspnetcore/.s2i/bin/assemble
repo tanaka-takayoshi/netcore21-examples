@@ -121,9 +121,12 @@ echo $DOTNET_STARTUP_PROJECT
 echo "ls:"
 ls
 
-echo "executing restore:"
+dotnet new mvc -o test
+cd test
 dotnet restore
+dotnet pulish
 
+cd ..
 
 echo "executing: dotnet restore $DOTNET_STARTUP_PROJECT $RESTORE_OPTIONS $VERBOSITY_OPTION"
 
