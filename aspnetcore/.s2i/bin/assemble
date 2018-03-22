@@ -121,6 +121,11 @@ echo $DOTNET_STARTUP_PROJECT
 echo "ls:"
 ls
 
+echo "executing restore:"
+dotnet restore
+
+
+echo "executing: dotnet restore $DOTNET_STARTUP_PROJECT $RESTORE_OPTIONS $VERBOSITY_OPTION"
 
 dotnet restore "$DOTNET_STARTUP_PROJECT" $RESTORE_OPTIONS $VERBOSITY_OPTION
 echo "---> Publishing application..."
